@@ -1,4 +1,4 @@
-#include "./headers/variables.h"
+#include "./Main.h"
 
 int main()
 {
