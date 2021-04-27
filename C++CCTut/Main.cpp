@@ -1,7 +1,9 @@
-#include <iostream>
+#include "./headers/variables.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "What is your name: ";
+    cin >> name;
+    cout << "Hello " << name << std::endl;
     return 0;
 }
