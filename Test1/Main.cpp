@@ -1,6 +1,13 @@
-#include <iostream>
+#include "Main.h"
+
+int Lol::helloWorld()
+{
+	std::cout << "Hello, World!\n";
+	return 0;
+}
 
 int main() 
 {
-	std::cout << "Hello, World!\n";
+	Lol lol;
+	lol.helloWorld();
 }
