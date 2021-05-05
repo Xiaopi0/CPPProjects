@@ -1,7 +1,9 @@
-#include <iostream>
+#include "./Main.h"
 
 int main()
 {
-    std::cout << "Hello World!LOL\n";
+    cout << "What is your name: ";
+    cin >> name;
+    cout << "Hello " << name << std::endl;
     return 0;
 }
